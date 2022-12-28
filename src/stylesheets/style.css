@@ -1,0 +1,15 @@
+.mobile-nav.closed {
+    top: -100vh;
+}
+
+.burger.open .line-1 {
+    transform: translateY(0.7rem) rotate(45deg);
+}
+
+.burger.open .line-2 {
+    opacity: 0;
+}
+
+.burger.open .line-3 {
+    transform: translateY(-0.7rem) rotate(-45deg);
+}
